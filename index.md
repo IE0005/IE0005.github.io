@@ -3,7 +3,8 @@ layout: default
 title: "Israt Zarin Era"
 ---
 
-![Profile Picture](assets/img/profile_pic.png){:style="width:150px; border-radius:50%;"}
+![Profile Picture](/assets/img/profile_pic.png){:style="width:150px; border-radius:50%;"}
+
 
 **Israt Zarin Era**  
 *Ph.D. Researcher | Computer Vision | Deep Learning | Data Augmentation*  
