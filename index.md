@@ -8,7 +8,7 @@ title: "Israt Zarin Era"
 
 **Israt Zarin Era**  
 *Ph.D. Researcher | Computer Vision | Deep Learning | Data Augmentation*  
-📍 **West Virginia University**  
+**West Virginia University**  
 
 ---
 I am a Ph.D. researcher in Industrial & Management Systems Engineering at West Virginia University, specializing in Computer Vision, Deep Learning, and Data Augmentation. My research focuses on bridging the gap between advanced machine-learning frameworks and real-life scenarios with unlabeled & limited labeled datasets for complex applications in additive manufacturing, medical imaging, and more. I develop robust solutions for data augmentation, self-supervised learning, and unsupervised segmentation to handle high-dimensional data effectively. 
