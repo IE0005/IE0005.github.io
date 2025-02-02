@@ -23,7 +23,7 @@ Feel free to reach out via **email or LinkedIn** for research discussions or col
 
 ## **Research Interests**
 - Image segmentation & classification  
-- Anomaly & Defect detection
+- Anomaly detection & defect detection
 - Data augmentation & class balancing 
 - Medical Imaging & Additive Manufacturing AI  
 
