@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: "Israt's Homepage"
 description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
-logo: "assets/img/profile_pic.png?raw=true" # your photo (or logo) here
+logo: "assets/img/profile_pic.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
  I am a Ph.D. researcher in Industrial & Management Systems Engineering at West Virginia University, specializing in Computer Vision, Deep Learning, and Data Augmentation. My research focuses on bridging the gap between advanced machine-learning frameworks and real-life scenarios with unlabeled & limited labeled datasets for complex applications in additive manufacturing, medical imaging, and more. I develop robust solutions for data augmentation, self-supervised learning, and unsupervised segmentation to handle high-dimensional data effectively.
