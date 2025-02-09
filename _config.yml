@@ -10,7 +10,7 @@ plugins:
 
 # Include `_data/projects.yml` for dynamic content
 include:
-  - _data
+  - _data/projects.yml
 
 # # Set base URL if using a custom domain (optional)
 # baseurl: ""
