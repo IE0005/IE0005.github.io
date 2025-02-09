@@ -1,3 +1,4 @@
+---
 layout: default
 title: "Israt's Homepage"
 description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
@@ -7,22 +8,21 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
     <div class="profile-section">
         <img src="/assets/img/profile_pic.png" alt="Your Photo">
         <h1>Israt Zarin Era</h1>
-    </div>
-
-    <div class="bio-section">
-        <p>
+        <p class="bio">
             I am a Ph.D. researcher in Industrial & Management Systems Engineering at West Virginia University, 
-            specializing in Computer Vision, Deep Learning, and Data Augmentation. 
-            My research focuses on bridging the gap between advanced machine-learning frameworks and real-life 
-            scenarios with unlabeled & limited labeled datasets for complex applications in additive manufacturing, 
-            medical imaging, and more. I develop robust solutions for data augmentation, self-supervised learning, 
-            and unsupervised segmentation to handle high-dimensional data effectively.
+            specializing in Computer Vision, Deep Learning, and Data Augmentation. My research focuses on bridging 
+            the gap between advanced machine-learning frameworks and real-life scenarios with unlabeled & limited 
+            labeled datasets for complex applications in additive manufacturing, medical imaging, and more. 
+            I develop robust solutions for data augmentation, self-supervised learning, and unsupervised segmentation 
+            to handle high-dimensional data effectively.
         </p>
         <p class="key-points">
-            <strong>Computer Vision</strong> | <strong>Deep Learning</strong> | <strong>Data Augmentation</strong> | <strong>AI Research</strong>
+            Computer Vision | Deep Learning | Data Augmentation | AI Research
         </p>
-        <p><a href="https://www.linkedin.com/in/israt-zarin-era/">LinkedIn Profile</a></p>
-        <p><a href="https://scholar.google.com/citations?user=YRYi0goAAAAJ&hl=en">Google Scholar</a></p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/israt-zarin-era/">LinkedIn Profile</a>
+            <a href="https://scholar.google.com/citations?user=YRYi0goAAAAJ&hl=en">Google Scholar</a>
+        </div>
     </div>
 
     <div class="content">
@@ -59,63 +59,63 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        display: flex;
-        justify-content: center;
         background-color: #f4f4f4;
+        text-align: center;
     }
 
     .container {
         width: 80%;
-        max-width: 1200px;
+        max-width: 1000px;
         background: white;
         padding: 20px;
         margin: 20px auto;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         min-height: 100vh;
-        text-align: center;
     }
 
     .profile-section {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .profile-section img {
-        width: 200px;
+        width: 180px;
         border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    .bio {
+        max-width: 700px;
+        font-size: 16px;
+        text-align: justify;
         margin-bottom: 10px;
     }
 
-    .bio-section {
-        width: 100%;
-        text-align: justify;
-        margin: 20px auto;
-        max-width: 900px;
+    .key-points {
+        font-weight: bold;
         font-size: 16px;
+        margin-bottom: 15px;
     }
 
-    .key-points {
-        text-align: center;
-        font-size: 16px;
-        font-weight: bold;
+    .links {
         margin-top: 10px;
     }
 
+    .links a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: blue;
+        font-size: 14px;
+    }
+
     .content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-top: 40px;
     }
 
     .projects-wrapper {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: white;
-        padding-bottom: 50px;
     }
 
     .project {
@@ -124,9 +124,7 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
         margin-bottom: 40px;
         padding-bottom: 20px;
         border-bottom: 1px solid #ddd;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
     }
 
     .project img {
