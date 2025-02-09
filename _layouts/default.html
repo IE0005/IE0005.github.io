@@ -1,140 +1,78 @@
----
-layout: default
-title: "Israt's Homepage"
-description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
----
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
 
-<div class="container">
-    <!-- Sidebar Section -->
-    <div class="sidebar">
-        <img src="/assets/img/profile_pic.png" alt="Your Photo">
-        <h1>Israt Zarin Era</h1>
-        <p class="bio">
-            I am a Ph.D. researcher in Industrial & Management Systems Engineering at West Virginia University, specializing in 
-            Computer Vision, Deep Learning, and Data Augmentation. My research focuses on bridging the gap between advanced 
-            machine-learning frameworks and real-life scenarios with unlabeled & limited labeled datasets for complex applications 
-            in additive manufacturing, medical imaging, and more. I develop robust solutions for data augmentation, 
-            self-supervised learning, and unsupervised segmentation to handle high-dimensional data effectively.
-        </p>
-        <p class="key-points">
-            <strong>Computer Vision</strong> | <strong>Deep Learning</strong> | <strong>Data Augmentation</strong> | <strong>AI Research</strong>
-        </p>
-        <p><a href="https://www.linkedin.com/in/israt-zarin-era/">LinkedIn Profile</a></p>
-        <p><a href="https://scholar.google.com/citations?user=YRYi0goAAAAJ&hl=en">Google Scholar</a></p>
-    </div>
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh; /* Ensure the white background extends fully */
+}
 
-    <!-- Project Section -->
-    <div class="content">
-        <h1>Selected Projects</h1>
-        {% for project in site.data.projects %}
-        <div class="project">
-            <h2>{{ project.title }}</h2>
-            <p>{{ project.description }}</p>
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-            <!-- Display project image if available -->
-            {% if project.image %}
-            <img src="{{ project.image }}" alt="{{ project.title }} image" style="width: 100%; max-width: 500px;"/>
-            {% endif %}
+.projects-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding-bottom: 50px;
+}
 
-            <!-- Display Technology Icons -->
-            {% if project.technologies %}
-            <div class="tech-icons">
-                {% for tech in project.technologies %}
-                <img src="/assets/icons/{{ tech }}.png" alt="{{ tech }}" class="tech-icon">
-                {% endfor %}
-            </div>
-            {% endif %}
+.project {
+    width: 90%;
+    max-width: 900px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-            <!-- GitHub Link (Only if available) -->
-            {% if project.link %}
-            <p><a href="{{ project.link }}">View on GitHub</a></p>
-            {% endif %}
-        </div>
-        {% endfor %}
-    </div>
-</div>
+.project img {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+}
 
-<!-- CSS Styling -->
-<style>
-    /* Layout Styling */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        background-color: #f4f4f4;
-    }
+.sidebar {
+    width: 30%;
+    text-align: center;
+}
 
-    .container {
-        display: flex;
-        flex-direction: column; /* Allow container to grow */
-        width: 90%;
-        max-width: 1200px;
-        background: white;
-        padding: 20px;
-        margin: 20px auto;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        min-height: 100vh; /* Ensures it covers full height */
+.sidebar img {
+    width: 80%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
 
-    }
-    .sidebar {
-        flex: 1;
-        min-width: 280px;
-        text-align: center;
-        padding-right: 20px;
-    }
-    .sidebar img {
-        width: 70%;
-        border-radius: 50%;
-    }
-    .bio {
-        font-size: 14px;
-        text-align: justify;
-    }
-    .key-points {
-        text-align: center;
-        font-size: 16px;
-        font-weight: bold;
-        margin-top: 10px;
-    }
-    .content {
-        flex: 2;
-        min-width: 600px;
-    }
-    h1 {
-        margin-top: 0;
-    }
-    .project {
-        margin-bottom: 20px;
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 15px;
-    }
-    .project h2 {
-        margin-bottom: 5px;
-    }
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
 
-    /* Technology Icons */
-    .tech-icons {
-        display: flex;
-        gap: 10px;
-        margin: 10px 0;
-    }
-    .tech-icon {
-        width: 32px;
-        height: 32px;
-    }
-
-    /* Image Grid for Predictions */
-    .image-grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
-    }
-    .image-grid img {
-        max-width: 45%;
-        height: auto;
-    }
-</style>
+.skill-icon {
+    width: 30px;
+    height: 30px;
+}
