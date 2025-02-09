@@ -1,17 +1,16 @@
----
 layout: default
 title: "Israt's Homepage"
 description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
 ---
 
 <div class="container">
-    <div class="sidebar">
+    <div class="profile-section">
         <img src="/assets/img/profile_pic.png" alt="Your Photo">
         <h1>Israt Zarin Era</h1>
-        <p class="key-points">
-            <strong>Computer Vision</strong> | <strong>Deep Learning</strong> | <strong>Data Augmentation</strong> | <strong>AI Research</strong>
-        </p>
-        <p class="bio">
+    </div>
+
+    <div class="bio-section">
+        <p>
             I am a Ph.D. researcher in Industrial & Management Systems Engineering at West Virginia University, 
             specializing in Computer Vision, Deep Learning, and Data Augmentation. 
             My research focuses on bridging the gap between advanced machine-learning frameworks and real-life 
@@ -19,7 +18,9 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
             medical imaging, and more. I develop robust solutions for data augmentation, self-supervised learning, 
             and unsupervised segmentation to handle high-dimensional data effectively.
         </p>
-
+        <p class="key-points">
+            <strong>Computer Vision</strong> | <strong>Deep Learning</strong> | <strong>Data Augmentation</strong> | <strong>AI Research</strong>
+        </p>
         <p><a href="https://www.linkedin.com/in/israt-zarin-era/">LinkedIn Profile</a></p>
         <p><a href="https://scholar.google.com/citations?user=YRYi0goAAAAJ&hl=en">Google Scholar</a></p>
     </div>
@@ -64,16 +65,41 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
     }
 
     .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+        width: 80%;
         max-width: 1200px;
         background: white;
         padding: 20px;
         margin: 20px auto;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        min-height: 100vh; /* Ensure the white background extends fully */
+        min-height: 100vh;
+        text-align: center;
+    }
+
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-section img {
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .bio-section {
+        width: 100%;
+        text-align: justify;
+        margin: 20px auto;
+        max-width: 900px;
+        font-size: 16px;
+    }
+
+    .key-points {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
     }
 
     .content {
@@ -107,18 +133,6 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
         max-width: 100%;
         display: block;
         margin: 10px auto;
-    }
-
-    .sidebar {
-        width: 30%;
-        text-align: center;
-    }
-
-    .sidebar img {
-        width: 80%;
-        border-radius: 50%;
-        display: block;
-        margin: 0 auto;
     }
 
     .skills-container {
