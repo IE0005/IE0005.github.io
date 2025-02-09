@@ -15,10 +15,18 @@
   image: "/assets/img/Pavement_Crack_Detection.png"
   accuracy_curve_unet: "/assets/img/unet.png"
   
-- title: "Anomaly detection using Variational Autoencoder and unsupervised clustering"
+- title: "Anomaly Detection using Variational Autoencoder and unsupervised clustering"
   description: "I applied unsupervised clustering models, including K-means and Gaussian Mixture Model, on the latent space of a Variational Autoencoder (VAE), achieving 95% accuracy for unsupervised anomaly detection in thermal image datasets."
   link: "https://github.com/IE0005/Anomaly_detection_.git"
   image: "/assets/img/anomaly_det.png"
+
+  
+- title: "Hospital Management Systems Database"
+  description: "I designed and implemented an SQLite database to manage hospital operations, including patient records, doctor schedules, appointments, billing, and inventory. The system tracks machine availability and integrates patient-doctor interactions for efficient scheduling. Using Python and the Faker library, I generated realistic synthetic data for patients, doctors, inventory, and appointments. The database enables efficient analytical queries for hospital resource management."
+  link: "https://github.com/IE0005/hospital_management_database.git"
+  image: "/assets/img/Hospital_management_database.png"
+
+  
 
 
 
