@@ -10,7 +10,7 @@
   # link: "https://github.com/IE0005/Pavement_crack_detect.git"
   image: "/assets/img/covid_xray.png"
 
- - title: "Data Augmentation for class imbalance (Ongoing Project)"
+- title: "Data Augmentation for class imbalance (Ongoing Project)"
   description: "I addressed class imbalance by using class-conditioned diffusion models for data augmentation, generating synthetic samples to improve the performance of the Vision Transformer classifier."
   # link: "https://github.com/IE0005/Pavement_crack_detect.git"
   image: "/assets/img/diff_thermal_images.png"
