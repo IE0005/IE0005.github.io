@@ -3,7 +3,7 @@
   link: "https://github.com/IE0005/Pavement_crack_detect.git"
   image: "/assets/img/Pavement_Crack_Detection.png"
   accuracy_curve_unet: "/assets/img/unet.png"
-  accuracy_curve_segnet: "/assets/img/segnet.png"
+  
 
   
   
