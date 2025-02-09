@@ -22,13 +22,13 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
             
             {% if project.image %}
             <img src="{{ project.image }}" alt="{{ project.title }} image" style="width: 100%; max-width: 500px;"/>
-           
             {% endif %}
             
+            {% if project.link %}
             <p><a href="{{ project.link }}">View on GitHub</a></p>
+            {% endif %}
         </div>
         {% endfor %}
-
     </div>
 </div>
 
@@ -43,6 +43,7 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
     }
     .container {
         display: flex;
+        flex-direction: column;
         width: 80%;
         max-width: 1000px;
         background: white;
@@ -70,13 +71,15 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
         margin-top: 10px;
     }
     .content {
-        width: 70%;
+        width: 100%;
     }
     h1 {
         margin-top: 0;
     }
     .project {
         margin-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
     }
     .project h2 {
         margin-bottom: 5px;
