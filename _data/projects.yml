@@ -1,4 +1,9 @@
 - title: "Pavement crack detection using Deep learning"
   description: "This project uses deep learning for automated pavement crack detection via semantic segmentation. I trained U-Net (ResNet-34) and SegNet (VGG-13) on the Crack500 dataset, with U-Net achieving 96% accuracy, outperforming SegNet’s 95%.U-Net’s ResNet-34 encoder preserves spatial details better than SegNet’s VGG-13, leading to improved segmentation."
   link: "https://github.com/IE0005/Pavement_crack_detect.git"
-  ![Crack Detection Example](https://github.com/IE0005/Pavement_crack_detect.git/assets/Pavement_Crack_Detection.png)
+  ![Results](/assets/img/Pavement_Crack_Detection.png)
+  
+  ![The accuracy and loss curve](assets/img/unet.png)
+  ![The accuracy and loss curve](assets/img/segnet.png)
+  
+  
