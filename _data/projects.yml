@@ -6,7 +6,7 @@
 
 
 - title: "Hybrid Deep Learning Framework for Lung Segmentation and COVID-19 Detection (Ongoing Project)"
-  description: "I developed a hybrid deep learning framework using U-Net for lung segmentation, achieving a Dice Similarity Score of up to 96%. Additionally, I implemented Vision Transformers for multi-class classification of COVID-19, Lung Opacity, and Viral Pneumonia from chest X-rays, attaining an average accuracy of up to 96%."
+  description: "I developed a hybrid deep learning framework using U-Net for lung segmentation, achieving a Dice Similarity Score of up to 96%. Additionally, I implemented Vision Transformers for multi-class classification of COVID-19, Lung Opacity, and Viral Pneumonia from chest X-rays, attaining an average accuracy of up to 95%."
   # link: "https://github.com/IE0005/Pavement_crack_detect.git"
   image: "/assets/img/covid_xray.png"
 
