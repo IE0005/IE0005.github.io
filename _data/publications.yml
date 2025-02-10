@@ -1,7 +1,7 @@
 - title: "In-Situ Melt Pool Characterization via Thermal Imaging for Defect Detection in Directed Energy Deposition Using Vision Transformers"
   authors: "Israt Zarin Era, Fan Zhou, Ahmed Shoyeb Raihan, Imtiaz Ahmed, Alan Abul-Haj, James Craig, Srinjoy Das, Zhichao Liu"
   description: "This paper presents a Vision Transformer-based framework that integrates self-supervised learning with Masked Autoencoder (MAE) and supervised classification to detect anomalies in melt pools of Directed Energy Deposition (DED) printed parts, achieving an accuracy of up to 99.17%."
-  image: "/assets/img/framework_MAE.png"
+  image: "/assets/img/cvs_new.png"
   skills:
     - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
     - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
