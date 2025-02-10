@@ -8,7 +8,7 @@
     - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
     - '<img src="https://img.shields.io/badge/HuggingFace-white?logo=huggingface" alt="HuggingFace">'
     - '<img src="https://img.shields.io/badge/Nautilus-white?logo=nautilus" alt="Nautilus">'
-    - '<img src="https://img.shields.io/badge/Matlab-white?logo=matlab&logoColor=white" alt="Matlab">'
+    - '<img src="https://img.shields.io/badge/Matlab-white?logo=matlab" alt="Matlab">'
 
   link: "https://doi.org/10.48550/arXiv.2411.12028"
 
@@ -33,7 +33,7 @@
   skills:
   - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
   - '<img src="https://img.shields.io/badge/Scikit--learn-white?logo=scikit-learn" alt="ScikitLearn">'
-  - '<img src="https://img.shields.io/badge/PyCharm-white?logo=pycharm&logoColor=white" alt="PyCharm">'
+  - '<img src="https://img.shields.io/badge/PyCharm-white?logo=pycharm" alt="PyCharm">'
   link: "https://doi.org/10.1007/s00170-022-09509-1"
 - title: "Effect of process parameters on tensile properties of SS 316 prepared by directional energy deposition"
   authors: "Israt Zarin Era, Zhichao Liu"
@@ -42,6 +42,6 @@
   skills:
   - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
   - '<img src="https://img.shields.io/badge/Scikit--learn-white?logo=scikit-learn" alt="ScikitLearn">'
-  - '<img src="https://img.shields.io/badge/PyCharm-white?logo=pycharm&logoColor=white" alt="PyCharm">'
+  - '<img src="https://img.shields.io/badge/PyCharm-white?logo=pycharm" alt="PyCharm">'
   link: "https://doi.org/10.1016/j.procir.2021.10.018"
   
