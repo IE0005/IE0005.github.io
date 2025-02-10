@@ -91,12 +91,15 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
             <p><strong>Conference:</strong> {{ poster.conference }}</p>
 
             {% if poster.file %}
-            <p><a href="{{ poster.file }}" target="_blank">View Poster PDF</a></p>
+            <div class="pdf-container">
+                <iframe src="{{ poster.file }}" width="100%" height="500px"></iframe>
+            </div>
             {% endif %}
         </div>
         {% endfor %}
     </div>
 </div>
+
 
 <style>
     body {
