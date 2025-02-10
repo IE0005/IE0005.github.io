@@ -9,7 +9,6 @@
     - { name: "HuggingFace", logo: "https://img.shields.io/badge/HuggingFace-white?logo=huggingface"}
     - { name: "Nautilus", logo: "https://img.shields.io/badge/Nautilus-white?logo=nautilus"}
   
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#)
 
 - title: "Hybrid Deep Learning Framework for Lung Segmentation and COVID-19 Detection (Ongoing Project)"
   description: "I developed a hybrid deep learning framework using U-Net for lung segmentation, achieving a Dice Similarity Score of up to 96%. Additionally, I implemented Vision Transformers for multi-class classification of COVID-19, Lung Opacity, and Viral Pneumonia from chest X-rays, attaining an average accuracy of up to 95%."
