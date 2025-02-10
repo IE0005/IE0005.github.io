@@ -3,6 +3,7 @@
   description: "This paper presents a Vision Transformer-based framework that integrates self-supervised learning with Masked Autoencoder (MAE) and supervised classification to detect anomalies in melt pools of Directed Energy Deposition (DED) printed parts, achieving an accuracy of up to 99.17%."
   images:
     - "/assets/img/framework_MAE.png"
+    - "/assets/img/cvs_new.png"
   skills:
     - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
     - '<img src="https://img.shields.io/badge/OpenCV-white?logo=opencv" alt="OpenCV">'
@@ -16,7 +17,9 @@
 - title: "An Unsupervised Approach Towards Promptable Defect Segmentation In Laser Additive Manufacturing By Segment Anything"
   authors: "Israt Zarin Era, Imtiaz Ahmed, James Craig, Srinjoy Das, Zhichao Liu"
   description: "This paper proposes a novel framework that utilizes the Segment Anything Model (SAM) with unsupervised clustering-based prompt generation for automated porosity segmentation in XCT data, achieving over 80% Dice Similarity Coefficient (DSC) without supervised training or fine-tuning."
-  image: "/assets/img/All_results_new.png"
+  image: 
+   - "/assets/img/final_framework.png"
+   - "/assets/img/All_results_new.png"
   skills:
   - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
   - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
@@ -30,7 +33,10 @@
 - title: "Prediction of mechanical behaviors of L-DED fabricated SS 316L parts via machine learning"
   authors: "Israt Zarin Era, Manikanta Grandhi, Zhichao Liu"
   description: "This study presents data-driven models utilizing XGBoost and Random Forest to predict the tensile properties of the DED process, minimizing the reliance on extensive experimental trials. XGBoost demonstrated superior predictive performance, achieving lower RMSE values of 11.38 MPa for yield strength, 12.22 MPa for ultimate tensile strength, and 3.22% for elongation. Additionally, XGBoost exhibited higher R² values (76%, 72%, and 85%) and lower relative errors compared to Random Forest, highlighting its effectiveness in modeling mechanical behavior."
-  image: "/assets/img/table_xgboost.png"
+  image:
+  - "/assets/img/xgboost.png"
+  - "/assets/img/rf.png"
+  - "/assets/img/table_xgboost.png"
   skills:
   - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
   - '<img src="https://img.shields.io/badge/Scikit--learn-white?logo=scikit-learn" alt="ScikitLearn">'
@@ -39,7 +45,7 @@
 - title: "Effect of process parameters on tensile properties of SS 316 prepared by directional energy deposition"
   authors: "Israt Zarin Era, Zhichao Liu"
   description: "This work analyzes the influence of process parameters on the mechanical properties of fabricated parts by leveraging F-score from the XGBoost machine learning model."
-  # image: "/assets/img/table_xgboost.png"
+
   skills:
   - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
   - '<img src="https://img.shields.io/badge/Scikit--learn-white?logo=scikit-learn" alt="ScikitLearn">'
