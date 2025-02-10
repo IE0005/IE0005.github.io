@@ -53,34 +53,34 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
         {% endfor %}
     </div>
 </div>
-       <div class="content">
-        <h1>Selected Publications</h1>
-        <div class="publications-wrapper">
-            {% for publication in site.data.publications %}
-            <div class="publication">
-                <h2>{{ publication.title }}</h2>
-                <p><strong>Authors:</strong> {{ publication.authors }}</p>
-                <p>{{ publication.description }}</p>
+<div class="content">
+<h1>Selected Publications</h1>
+<div class="publications-wrapper">
+    {% for publication in site.data.publications %}
+    <div class="publication">
+        <h2>{{ publication.title }}</h2>
+        <p><strong>Authors:</strong> {{ publication.authors }}</p>
+        <p>{{ publication.description }}</p>
 
-                {% if publication.skills %}
-                <div class="skills-container">
-                    {% for skill in publication.skills %}
-                        {{ skill | safe }}
-                    {% endfor %}
-                </div>
-                {% endif %}
-
-                {% if publication.image %}
-                <img src="{{ publication.image }}" alt="{{ publication.title }} image" class="publication-image"/>
-                {% endif %}
-
-                {% if publication.link %}
-                <p><a href="{{ publication.link }}" target="_blank">Find the publication here</a></p>
-                {% endif %}
-            </div>
+        {% if publication.skills %}
+        <div class="skills-container">
+            {% for skill in publication.skills %}
+                {{ skill | safe }}
             {% endfor %}
         </div>
+        {% endif %}
+
+        {% if publication.image %}
+        <img src="{{ publication.image }}" alt="{{ publication.title }} image" class="publication-image"/>
+        {% endif %}
+
+        {% if publication.link %}
+        <p><a href="{{ publication.link }}" target="_blank">Find the publication here</a></p>
+        {% endif %}
     </div>
+    {% endfor %}
+</div>
+</div>
 <div class="content">
     <h1>Posters</h1>
     <div class="posters-wrapper">
