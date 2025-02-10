@@ -7,6 +7,10 @@
     - '<img src="https://img.shields.io/badge/HuggingFace-white?logo=huggingface" alt="HuggingFace">'
     - '<img src="https://img.shields.io/badge/Nautilus-white?logo=nautilus" alt="Nautilus">'
     - '<img src="https://img.shields.io/badge/Matlab-white?logo=nautilus" alt="Matlab">'
+    - '<img src="https://img.shields.io/badge/NumPy-white?logo=numpy&logoColor=blue" alt="NumPy">'
+    - '<img src="https://img.shields.io/badge/Pandas-white?logo=pandas&logoColor=black" alt="Pandas">'
+
+
     
   image: "/assets/img/diff_thermal_images.png"
  
@@ -18,7 +22,10 @@
     - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
     - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
     - '<img src="https://img.shields.io/badge/HuggingFace-white?logo=huggingface" alt="HuggingFace">'
-    - '<img src="https://img.shields.io/badge/Nautilus-white?logo=nautilus" alt="Nautilus">'
+    - '<img src="https://img.shields.io/badge/Nautilus-white?logo=nautilus" alt="Nautilus">'  
+    - '<img src="https://img.shields.io/badge/NumPy-white?logo=numpy&logoColor=blue" alt="NumPy">'
+    - '<img src="https://img.shields.io/badge/Pandas-white?logo=pandas&logoColor=black" alt="Pandas">'
+
   
   image: "/assets/img/covid_xray.png"
 
@@ -39,6 +46,8 @@
      - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
      - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
      - '<img src="https://img.shields.io/badge/Jupyter-white?logo=jupyter" alt="Jupyter">'
+     - '<img src="https://img.shields.io/badge/NumPy-white?logo=numpy&logoColor=blue" alt="NumPy">'
+     - '<img src="https://img.shields.io/badge/Pandas-white?logo=pandas&logoColor=black" alt="Pandas">'
   
   link: "https://github.com/IE0005/Anomaly_detection_.git"
   image: "/assets/img/anomaly_det.png"
@@ -50,6 +59,8 @@
      - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
      - '<img src="https://img.shields.io/badge/SQL-white?logo=sql" alt="SQL">'
      - '<img src="https://img.shields.io/badge/Jupyter-white?logo=jupyter" alt="Jupyter">'
+     - '<img src="https://img.shields.io/badge/NumPy-white?logo=numpy&logoColor=blue" alt="NumPy">'
+     - '<img src="https://img.shields.io/badge/Pandas-white?logo=pandas&logoColor=black" alt="Pandas">'
   link: "https://github.com/IE0005/hospital_management_database.git"
   image: "/assets/img/Hospital_management_database.png"
 
