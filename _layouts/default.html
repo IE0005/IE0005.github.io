@@ -53,40 +53,34 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
         {% endfor %}
     </div>
 </div>
-   <div class="content">
-    <h1>Selected Publications</h1>
-    <div class="publications-wrapper">
-        {% for publication in site.data.publications %}
-        <div class="publication">
-            <h2>{{ publication.title }}</h2>
-            <p><strong>Authors:</strong> {{ publication.authors }}</p>
-            <p>{{ publication.description }}</p>
+       <div class="content">
+        <h1>Selected Publications</h1>
+        <div class="publications-wrapper">
+            {% for publication in site.data.publications %}
+            <div class="publication">
+                <h2>{{ publication.title }}</h2>
+                <p><strong>Authors:</strong> {{ publication.authors }}</p>
+                <p>{{ publication.description }}</p>
 
-            {% if publication.skills %}
-            <div class="skills-container">
-                {% for skill in publication.skills %}
-                    {{ skill | safe }}
-                {% endfor %}
+                {% if publication.skills %}
+                <div class="skills-container">
+                    {% for skill in publication.skills %}
+                        {{ skill | safe }}
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if publication.image %}
+                <img src="{{ publication.image }}" alt="{{ publication.title }} image" class="publication-image"/>
+                {% endif %}
+
+                {% if publication.link %}
+                <p><a href="{{ publication.link }}" target="_blank">Find the publication here</a></p>
+                {% endif %}
             </div>
-            {% endif %}
-
-            {% if publication.images %}
-            <div class="publication-images">
-                {% for img in publication.images %}
-                    <img src="{{ img }}" alt="{{ publication.title }} image" class="publication-image"/>
-                {% endfor %}
-            </div>
-            {% endif %}
-
-            {% if publication.link %}
-            <p><a href="{{ publication.link }}" target="_blank">Find the publication here</a></p>
-            {% endif %}
-        </div> <!-- Closing div for each publication -->
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
-</div>
-
-
 <div class="content">
     <h1>Posters</h1>
     <div class="posters-wrapper">
@@ -203,12 +197,12 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
         text-align: center;
     }
 
-/*     .publication img, .poster img {
+    .publication img, .poster img {
         max-width: 100%;
         display: block;
         margin: 10px auto;
-    } */
-  .publication-images {
+    }
+/*   .publication-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -223,7 +217,7 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
     border-radius: 5px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
  }
-
+ */
 
 
     .skills-container {
