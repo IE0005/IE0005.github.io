@@ -8,7 +8,8 @@
     - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
     - '<img src="https://img.shields.io/badge/HuggingFace-white?logo=huggingface" alt="HuggingFace">'
     - '<img src="https://img.shields.io/badge/Nautilus-white?logo=nautilus" alt="Nautilus">'
-    - '<img src="https://img.shields.io/badge/Matlab-white?logo=nautilus" alt="Matlab">'
+    - '<img src="https://img.shields.io/badge/Matlab-white?logo=matlab&logoColor=white" alt="Matlab">'
+
   link: "https://doi.org/10.48550/arXiv.2411.12028"
 
 - title: "An Unsupervised Approach Towards Promptable Defect Segmentation In Laser Additive Manufacturing By Segment Anything"
@@ -24,3 +25,23 @@
 
 
   link: "https://doi.org/10.48550/arXiv.2312.04063"
+
+- title: "Prediction of mechanical behaviors of L-DED fabricated SS 316L parts via machine learning"
+  authors: "Israt Zarin Era, Manikanta Grandhi, Zhichao Liu"
+  description: "This study presents data-driven models utilizing XGBoost and Random Forest to predict the tensile properties of the DED process, minimizing the reliance on extensive experimental trials. XGBoost demonstrated superior predictive performance, achieving lower RMSE values of **11.38 MPa** for yield strength, **12.22 MPa** for ultimate tensile strength, and **3.22%** for elongation. Additionally, XGBoost exhibited higher **R² values** (76%, 72%, and 85%) and lower relative errors compared to Random Forest, highlighting its effectiveness in modeling mechanical behavior."
+  image: "/assets/img/table_xgboost.png"
+  skills:
+  - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
+  - '<img src="https://img.shields.io/badge/Scikit--learn-white?logo=scikit-learn" alt="ScikitLearn">'
+  - '<img src="https://img.shields.io/badge/PyCharm-white?logo=pycharm&logoColor=white" alt="PyCharm">'
+  link: "https://doi.org/10.1007/s00170-022-09509-1"
+- title: "Effect of process parameters on tensile properties of SS 316 prepared by directional energy deposition"
+  authors: "Israt Zarin Era, Zhichao Liu"
+  description: "This work analyzes the influence of process parameters on the mechanical properties of fabricated parts by leveraging F-score from the XGBoost machine learning model."
+  # image: "/assets/img/table_xgboost.png"
+  skills:
+  - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
+  - '<img src="https://img.shields.io/badge/Scikit--learn-white?logo=scikit-learn" alt="ScikitLearn">'
+  - '<img src="https://img.shields.io/badge/PyCharm-white?logo=pycharm&logoColor=white" alt="PyCharm">'
+  link: "https://doi.org/10.1016/j.procir.2021.10.018"
+  
