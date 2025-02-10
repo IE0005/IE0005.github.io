@@ -48,7 +48,7 @@
   description: "I designed and implemented an SQLite database to manage hospital operations, including patient records, doctor schedules, appointments, billing, and inventory. The system tracks machine availability and integrates patient-doctor interactions for efficient scheduling. Using Python and the Faker library, I generated realistic synthetic data for patients, doctors, inventory, and appointments. The database enables efficient analytical queries for hospital resource management."
   skills:
      - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
-     - '<img src="https://img.shields.io/badge/SQLite-white?logo=sql" alt="SQL">'
+     - '<img src="https://img.shields.io/badge/SQL-white?logo=sql" alt="SQL">'
      - '<img src="https://img.shields.io/badge/Jupyter-white?logo=jupyter" alt="Jupyter">'
   link: "https://github.com/IE0005/hospital_management_database.git"
   image: "/assets/img/Hospital_management_database.png"
