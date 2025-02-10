@@ -37,16 +37,14 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
                 {% if project.image %}
                 <img src="{{ project.image }}" alt="{{ project.title }} image" class="project-image"/>
                 {% endif %}
-
-               {% if project.skills %}
+                
+                {% if project.skills %}
                     <div class="skills-container">
                         {% for skill in project.skills %}
                             {{ skill | safe }}
                         {% endfor %}
                     </div>
                 {% endif %}
-
-
                 {% if project.link %}
                 <p><a href="{{ project.link }}">View on GitHub</a></p>
                 {% endif %}
@@ -137,13 +135,16 @@ description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
 
     .skills-container {
         display: flex;
-        flex-wrap: wrap;
         gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         margin-top: 10px;
     }
     
     .skills-container img {
-        height: 25px;
+        height: 30px;
     }
+
 
 </style>
