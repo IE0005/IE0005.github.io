@@ -21,20 +21,16 @@
 title: "Israt's Homepage"
 description: "Computer Vision | Deep Learning | Data Augmentation | AI Research"
 
-# Keep your existing theme or switch to Minima
 theme: jekyll-theme-minimal
 
-# Enable Jekyll Plugins
 plugins:
   - jekyll-data
 
-# Include `_data/projects.yml`, `_data/publications.yml`, `_data/posters.yml`
 include:
   - _data/projects.yml
   - _data/publications.yml
   - _data/posters.yml
 
-# Collections for structured content
 collections:
   projects:
     output: true
@@ -46,15 +42,6 @@ collections:
     output: true
     permalink: /posters/:path/
 
-# Set base URL if using a custom domain (optional)
-# baseurl: ""
-# url: "https://ie0005.github.io"
-
-# Markdown settings
 markdown: kramdown
 
-# Set Data Directory for Jekyll
-data:
-  output: true
-  permalink: /:collection/:path/
 
