@@ -1,11 +1,12 @@
 
 - title: "Data Augmentation for Class Imbalance (Ongoing Project)"
   description: "In this project, I am working to handle the class imbalance problem in thermal data using a diffusion model for data augmentation. I utilize a U-Net model with a cosine noise scheduler to generate synthetic samples, aiming to enhance the performance of the Vision Transformer classifier."
-   skills:
+  skills:
     - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
     - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
     - '<img src="https://img.shields.io/badge/HuggingFace-white?logo=huggingface" alt="HuggingFace">'
     - '<img src="https://img.shields.io/badge/Nautilus-white?logo=nautilus" alt="Nautilus">'
+    
   image: "/assets/img/diff_thermal_images.png"
  
 
