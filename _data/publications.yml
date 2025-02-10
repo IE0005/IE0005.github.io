@@ -4,8 +4,22 @@
   image: "/assets/img/cvs_new.png"
   skills:
     - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
+    - '<img src="https://img.shields.io/badge/OpenCV-white?logo=opencv" alt="OpenCV">'
     - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
     - '<img src="https://img.shields.io/badge/HuggingFace-white?logo=huggingface" alt="HuggingFace">'
     - '<img src="https://img.shields.io/badge/Nautilus-white?logo=nautilus" alt="Nautilus">'
     - '<img src="https://img.shields.io/badge/Matlab-white?logo=nautilus" alt="Matlab">'
   link: "https://doi.org/10.48550/arXiv.2411.12028"
+
+- title: "An Unsupervised Approach Towards Promptable Defect Segmentation In Laser Additive Manufacturing By Segment Anything"
+  authors: "Israt Zarin Era, Imtiaz Ahmed, James Craig, Srinjoy Das, Zhichao Liu"
+  description: "This paper proposes a novel framework that utilizes the Segment Anything Model (SAM) with unsupervised clustering-based prompt generation for automated porosity segmentation in XCT data, achieving over 80% Dice Similarity Coefficient (DSC) without supervised training or fine-tuning."
+  image: "/assets/img/All_results_new.png"
+  skills:
+    - '<img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python">'
+    - '<img src="https://img.shields.io/badge/PyTorch-white?logo=pytorch" alt="PyTorch">'
+    - '<img src="https://img.shields.io/badge/OpenCV-white?logo=opencv" alt="OpenCV">'
+    - '<img src="https://img.shields.io/badge/Scikit--learn-white?logo=scikit-learn" alt="ScikitLearn">'
+    - '<img src="https://img.shields.io/badge/Nautilus-white?logo=nautilus" alt="Nautilus">'
+
+  link: "https://doi.org/10.48550/arXiv.2312.04063"
