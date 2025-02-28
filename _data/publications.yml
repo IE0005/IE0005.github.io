@@ -17,7 +17,7 @@
   link: "https://doi.org/10.48550/arXiv.2411.12028"
 
 - title: "An Unsupervised Approach Towards Promptable Defect Segmentation In Laser Additive Manufacturing By Segment Anything"
-  authors: "Israt Zarin Era, Imtiaz Ahmed, James Craig, Srinjoy Das, Zhichao Liu"
+  authors: "Israt Zarin Era, Imtiaz Ahmed, Srinjoy Das, Zhichao Liu"
   description: "This paper proposes a novel framework that utilizes the Segment Anything Model (SAM) with unsupervised clustering-based prompt generation for automated porosity segmentation in XCT data, achieving over 80% Dice Similarity Coefficient (DSC) without supervised training or fine-tuning."
   images: 
    - "/assets/img/final_framework.png"
