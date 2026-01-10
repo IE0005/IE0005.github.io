@@ -1,0 +1,25 @@
+{
+  "posters": [
+    {
+      "image": "/Israt-portfolio/public/images/posters/unsupervised_promptable_defect_segmentation_poster.png",
+      "title": "Unsupervised Promptable Defect Segmentation in Laser Additive Manufacturing",
+      "event": "INFORMS Annual Meeting (Poster Session)",
+      "location": "",
+      "date": "2024",
+      "bodyText": "- Poster presenting an unsupervised framework for defect (porosity) segmentation in Laser Additive Manufacturing using the Segment Anything Model (SAM).\n- Uses clustering-based prompt generation on XCT images, SAM-based segmentation, and bootstrapped uncertainty quantification to achieve high Dice scores without supervised fine-tuning.",
+      "links": [
+        {
+          "text": "Poster PDF",
+          "href": "https://drive.google.com/your-unsupervised-sam-poster-link-here"
+        }
+      ],
+      "tags": [
+        "Laser Additive Manufacturing",
+        "Porosity Segmentation",
+        "Segment Anything Model",
+        "Unsupervised Learning",
+        "Computer Vision"
+      ]
+    }
+  ]
+}

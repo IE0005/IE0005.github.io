@@ -1,150 +1,115 @@
 {
-    "projects" : [
+  "projects": [
+    {
+      "image": "/Israt-portfolio/public/images/projects/vst_denoiser_framework.png",
+      "title": "Physics-Informed Deep Variance Stabilization with Diffusion Denoising for Non-Stationary Rician Noise in MRI (Ongoing)",
+      "bodyText": "- Developed a physics-informed denoising framework for MRI corrupted by non-stationary Rician noise.\n- Combines Sigma-Net + VST-Net for deep variance stabilization with a diffusion-based denoiser, achieving an initial PSNR of 24.6 dB while preserving anatomical structures.",
+      "links": [],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Matlab",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "image": "/Israt-portfolio/public/images/projects/thermal_diffusion.png",
+      "title": "Data Augmentation for Class Imbalance in Thermal Imaging",
+      "bodyText": "- Designed a diffusion-based data augmentation pipeline to address class imbalance in thermal imaging datasets.\n- Utilized a U-Net with self-attention, positional encoding, and a cosine noise schedule to generate synthetic samples and improve ViT classifier performance.",
+      "links": [],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "HuggingFace",
+        "Nautilus",
+        "Matlab",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "image": "/Israt-portfolio/public/images/projects/covid_xray.png",
+      "title": "Hybrid Deep Learning Framework for Lung Segmentation and COVID-19 Detection (Ongoing)",
+      "bodyText": "- Built a hybrid framework using U-Net for lung segmentation from chest X-rays, achieving Dice scores up to 96%.\n- Implemented Vision Transformers for multi-class classification of COVID-19, Lung Opacity, and Viral Pneumonia with average accuracy up to 95%.",
+      "links": [],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "HuggingFace",
+        "Nautilus",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "image": "/Israt-portfolio/public/images/projects/Pavement_Crack_Detection.png",
+      "title": "Pavement Crack Detection using Deep Learning",
+      "bodyText": "- Applied semantic segmentation (U-Net with ResNet-34 encoder and SegNet with VGG-13) for automated pavement crack detection.\n- U-Net achieved 96% accuracy on the Crack500 dataset, outperforming SegNet (95%) by better preserving spatial details.",
+      "links": [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
-            ]
+          "text": "GitHub",
+          "href": "https://github.com/IE0005/Pavement_crack_detect.git"
         }
-    ]
+      ],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Jupyter",
+        "NumPy"
+      ]
+    },
+    {
+      "image": "/Israt-portfolio/public/images/projects/anomaly_det.png",
+      "title": "Anomaly Detection using Variational Autoencoder and Unsupervised Clustering",
+      "bodyText": "- Trained a Variational Autoencoder on thermal image data and performed clustering in the latent space.\n- Achieved ~95% accuracy for unsupervised anomaly detection using K-means and Gaussian Mixture Models on learned embeddings.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/IE0005/Anomaly_detection_.git"
+        }
+      ],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Jupyter",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "image": "/Israt-portfolio/public/images/projects/3D_desigs_slides.png",
+      "title": "CAD Design for Additive Manufacturing",
+      "bodyText": "- Investigated infill and structural design for FDM-fabricated parts to reduce material usage while maintaining mechanical performance.\n- Conducted compressive, ductility, and three-point bending tests to study stress–ductility/load–weight trade-offs across different infill patterns.",
+      "links": [
+        {
+          "text": "Slides",
+          "href": "/Israt-portfolio/public/images/slides_laser_project/3D_desigs_slides.pdf"
+        }
+      ],
+      "tags": [
+        "Autodesk Fusion 360",
+        "Autodesk Netfabb",
+        "Additive Manufacturing"
+      ]
+    },
+    {
+      "image": "/Israt-portfolio/public/images/projects/Hospital_management_database.png",
+      "title": "Hospital Management Systems Database",
+      "bodyText": "- Designed and implemented an SQLite database to manage patient records, doctor schedules, appointments, billing, and inventory.\n- Generated realistic synthetic data using Python and Faker and enabled analytical queries for hospital resource and workflow optimization.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/IE0005/hospital_management_database.git"
+        }
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Jupyter",
+        "NumPy",
+        "Pandas"
+      ]
+    }
+  ]
 }

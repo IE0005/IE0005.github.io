@@ -2,15 +2,15 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/israt-zarin-era/"
         },
         {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "network" : "google scholar",
+            "href": "https://scholar.google.com/citations?user=YRYi0goAAAAJ&hl=en"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "isratzarinera@gmail.com"
         }
     ]
 }

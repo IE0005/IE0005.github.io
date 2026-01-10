@@ -1,0 +1,95 @@
+{
+  "publications": [
+    {
+      "images": [
+        "/Israt-portfolio/public/images/publications/framework_MAE.png",
+        "/Israt-portfolio/public/images/publications/cvs_new.png"
+      ],
+      "title": "In-Situ Melt Pool Characterization via Thermal Imaging for Defect Detection in Directed Energy Deposition Using Vision Transformers",
+      "authors": "Israt Zarin Era, Fan Zhou, Ahmed Shoyeb Raihan, Imtiaz Ahmed, Alan Abul-Haj, James Craig, Srinjoy Das, Zhichao Liu",
+      "bodyText": "- Proposed a Vision Transformer framework integrating self-supervised MAE and supervised classification for melt pool anomaly detection in DED-printed parts.\n- Achieved an accuracy of up to 99.17% for defect identification.",
+      "links": [
+        {
+          "text": "DOI",
+          "href": "https://doi.org/10.1016/j.jmapro.2025.03.123"
+        }
+      ],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "HuggingFace",
+        "Nautilus",
+        "MATLAB",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "images": [
+        "/Israt-portfolio/public/images/publications/final_framework.png",
+        "/Israt-portfolio/public/images/publications/All_results_new.png"
+      ],
+      "title": "An Unsupervised Approach Towards Promptable Porosity Segmentation In Laser Powder Bed Fusion By Segment Anything",
+      "authors": "Israt Zarin Era, Imtiaz Ahmed, Srinjoy Das, Zhichao Liu",
+      "bodyText": "- Proposed an unsupervised SAM + clustering pipeline for XCT-based porosity segmentation.\n- Achieved over 80% Dice Similarity Coefficient without supervised labeling or fine-tuning.",
+      "links": [
+        {
+          "text": "DOI",
+          "href": "https://doi.org/10.1038/s44334-025-00021-4"
+        }
+      ],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Scikit-Learn",
+        "Nautilus",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "images": [
+        "/Israt-portfolio/public/images/publications/xgboost.png",
+        "/Israt-portfolio/public/images/publications/rf.png",
+        "/Israt-portfolio/public/images/publications/table_xgboost.png"
+      ],
+      "title": "Prediction of Mechanical Behaviors of L-DED Fabricated SS 316L Parts via Machine Learning",
+      "authors": "Israt Zarin Era, Manikanta Grandhi, Zhichao Liu",
+      "bodyText": "- Modeled SS316L tensile properties using XGBoost and Random Forest to reduce experimental burden.\n- XGBoost achieved lower RMSE and higher R² values, outperforming RF for yield strength, UTS, and elongation.",
+      "links": [
+        {
+          "text": "DOI",
+          "href": "https://doi.org/10.1007/s00170-022-09509-1"
+        }
+      ],
+      "tags": [
+        "Python",
+        "Scikit-Learn",
+        "XGBoost",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "images": [],
+      "title": "Effect of Process Parameters on Tensile Properties of SS 316 Prepared by Directional Energy Deposition",
+      "authors": "Israt Zarin Era, Zhichao Liu",
+      "bodyText": "- Investigated the effect of DED process parameters on tensile properties using XGBoost feature importance (F-score).",
+      "links": [
+        {
+          "text": "DOI",
+          "href": "https://doi.org/10.1016/j.procir.2021.10.018"
+        }
+      ],
+      "tags": [
+        "Python",
+        "Scikit-Learn",
+        "XGBoost",
+        "NumPy",
+        "Pandas"
+      ]
+    }
+  ]
+}

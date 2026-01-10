@@ -1,33 +1,45 @@
 {
-    "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
-    ]
+  "experiences": [
+    {
+      "title": "Postdoctoral Researcher",
+      "subtitle": "University of Texas Southwestern",
+      "logo": "/Israt-portfolio/public/images/logos/UTSW.png",
+      "workDescription": [
+        "Designed a deep learning-based MRI preprocessing framework using variance stabilization for non-stationary Rician noise.",
+        "Leveraged diffusion models for high-fidelity MRI denoising and visual quality enhancement."
+      ],
+      "dateText": "Oct 2025 – Present"
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "subtitle": "West Virginia University",
+      "logo": "/Israt-portfolio/public/images/logos/WVU.png",
+      "workDescription": [
+        "Conducted data collection experiments and data labeling for AI model development.",
+        "Developed machine learning pipelines for healthcare and advanced manufacturing applications.",
+        "Published research in peer-reviewed journals and contributed to NSF grant proposal writing (Grant No. 2119654)."
+      ],
+      "dateText": "May 2021 – Aug 2025"
+    },
+    {
+      "title": "Graduate Teaching Assistant",
+      "subtitle": "West Virginia University",
+      "logo": "/Israt-portfolio/public/images/logos/WVU.png",
+      "workDescription": [
+        "Assisted in preparing class materials and graded exams and assignments."
+      ],
+      "dateText": "Aug 2019 – May 2021"
+    },
+    {
+      "title": "Executive Industrial Engineer",
+      "subtitle": "Esquire Knit Composite Ltd.",
+      "logo": "/Israt-portfolio/public/images/logos/esquire.png",
+      "workDescription": [
+        "Implemented modular sewing line layouts using Lean Manufacturing principles, improving production efficiency by 15%.",
+        "Optimized capacity and line balancing to reduce idle time, saving approximately $30,000 annually in operational costs."
+      ],
+      "dateText": "May 2018 – Oct 2018"
+    }
+  ]
 }
+
