@@ -1,18 +1,20 @@
 {
   "projects": [
-    {
-      "image": "/Israt-portfolio/public/images/projects/vst_denoiser_framework.png",
-      "title": "Physics-Informed Deep Variance Stabilization with Diffusion Denoising for Non-Stationary Rician Noise in MRI (Ongoing)",
-      "bodyText": "- Developed a physics-informed denoising framework for MRI corrupted by non-stationary Rician noise.\n- Combines Sigma-Net + VST-Net for deep variance stabilization with a diffusion-based denoiser, achieving an initial PSNR of 24.6 dB while preserving anatomical structures.",
-      "links": [],
-      "tags": [
-        "Python",
-        "PyTorch",
-        "Matlab",
-        "NumPy",
-        "Pandas"
-      ]
-    },
+{
+  "image": "/Israt-portfolio/public/images/projects/vst_denoiser_framework.png",
+  "title": "Physics-Informed Deep Variance Stabilization with Diffusion Denoising for Non-Stationary Rician Noise in MRI (Ongoing)",
+  "bodyText": "- Developed a physics-informed denoising framework for MRI corrupted by non-stationary Rician noise.\n- Combines Sigma-Net + VST-Net for deep variance stabilization with a diffusion-based denoiser, achieving an initial PSNR of 24.6 dB while preserving anatomical structures.",
+  "links": [
+    "https://github.com/IE0005/VST-DDPM"
+  ],
+  "tags": [
+    "Python",
+    "PyTorch",
+    "Matlab",
+    "NumPy",
+    "Pandas"
+  ]
+},
     {
       "image": "/Israt-portfolio/public/images/projects/thermal_diffusion.png",
       "title": "Data Augmentation for Class Imbalance in Thermal Imaging",
